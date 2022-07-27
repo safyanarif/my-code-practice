@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> box model 5</title>
+        <style> 
+                .box{
+                    border: 1px solid red;
+                    height: 500px;
+                    width: 1000px;
+
+                }
+                .childbox{ 
+                    margin-top: 50px;
+                    height: 300px;
+                    width: 400px;
+                    background-image: url(../img/img.jpg);
+
+                }
+                .left{
+                    float: left;
+
+                }
+                .right{
+                    float: right;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>box model 5</h1>
+        <div class="box">
+            <div class="childbox left"></div>
+            <div class="childbox right"></div>
+        </div>
+    </body>
+</html>

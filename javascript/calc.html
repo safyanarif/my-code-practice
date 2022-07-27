@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <span> First Number</span>
+    <input type="text" id="First">
+    <br>
+    <span> Second Number</span>
+    <input type="text" id="Second">
+    <br>
+    <span>Result</span>
+    <input type="text" id="Result">
+    <br>
+    <input type="button" id="cal" onclick="calculate();" value="CALCULATE">
+    <script>
+        function calculate(){
+            let z;
+            let x =document.getElementById("first").value;
+            let y =document.getElementById("Second").value
+
+            if(!(isNaN(x) || isNaN(y))){
+                x=parseFloat(x);
+                y=parseFloat(y);
+                z=x+y;
+                document.getElementById("result".value=z);
+            } else{
+                alert("provide integer value");
+            }
+        }
+    </script>
+    
+</body>
+</html>

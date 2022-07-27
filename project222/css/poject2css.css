@@ -1,0 +1,33 @@
+.body1{
+    background-image: url(../image/image.jpg);
+}
+.main-div{
+    height: 60px;
+    width: 100%;
+}
+.child-div{
+    height: 40px;
+    width: auto;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.child2{
+    height: 40px;
+    width: auto;
+    margin-top: 7px;
+}
+.child2 ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+.child2 ul li a{
+    text-decoration: none;
+}
